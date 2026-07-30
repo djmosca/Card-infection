@@ -23,6 +23,25 @@ img{
     object-fit:cover;
     display:block;
 }
+.card{
+    position:absolute;
+    width:64px;
+    height:64px;
+    border-radius:18px;
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:48px;
+    opacity:0;
+    transform:scale(.2) rotateY(180deg);
+    transition:.45s;
+}
+
+.mostrar{
+    opacity:1;
+    transform:scale(1);
+}
 </style>
 
 </head>
