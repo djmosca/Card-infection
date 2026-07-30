@@ -41,7 +41,7 @@ for(let i=0;i<posiciones.length;i++){
     carta.style.left=posiciones[i].x+"px";
     carta.style.top=posiciones[i].y+"px";
 
-    carta.innerHTML="🂡";
+    carta.innerHTML = '<img src="card.PNG" style="width:100%;height:100%;border-radius:18px;">';
 
     body.appendChild(carta);
 
